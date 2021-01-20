@@ -1,0 +1,58 @@
+#gameDiv{
+	border:1px solid red;
+	height:300px;
+	width:600px;
+	background-color:black
+}
+
+.wallDiv{
+	width:15px;
+	height:15px;
+	position:absolute;
+	
+	background:url('../imgs/tankAll.gif') 0px -96px repeat;
+	
+}
+.stoneDiv{
+	width:16px;
+	height:16px;
+	position:absolute;
+	background:url('../imgs/tankAll.gif') -15px -96px repeat;
+}
+#myTank{
+	width:30px;
+	height:30px;
+	position:absolute;
+	/* background:url('../imgs/tankAll.gif') 0px 0px no-repeat ; */
+}
+#home{
+	width:30px;
+	height:30px;
+	position:absolute;
+	
+	background:url('../imgs/tankAll.gif') -256px 0px no-repeat ;
+}
+#gameOver{
+	position:absolute;
+	display:none;
+	height:40px;
+	width:120px;
+	color:red;
+	font-weight:bold;
+	background:url('../imgs/tankAll.gif') -384px -55px no-repeat ;
+	
+}
+#info{
+	position:absolute;
+	font:16px;
+    height:30px;
+    width:120px;
+    left:630px;
+    top:60px;
+}
+.enemyTank{
+    width:30px;
+    height:30px;
+    position:absolute;
+    /* background:url('../imgs/tankAll.gif') 0px -30px no-repeat ; */
+}
